@@ -1,0 +1,166 @@
+body{
+  background-color: black;
+}
+
+
+
+.navigation-bar{
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 140px;
+}
+h1{
+  display: inline-block;
+  position: absolute;
+  left: 80px;
+}
+h2{
+  font-family: fantasy;
+  padding-top: 0px;
+}
+h3{
+  display: inline-block;
+  position: absolute;
+  top: 63px;
+  left: 80px;
+}
+.table-link{
+  position: absolute;
+  right: 30px;
+  top: 80px;
+}
+.Link{
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.Link:hover{
+  background-color: #B2B2B2;
+  color: black;
+  transition-duration: 1s;
+}
+
+
+
+
+.first-container{
+  display: flex;
+  position: absolute;
+  top: 140px;
+  height: 800px;
+  width: 100%;
+}
+.first-written{
+  background-color: black;
+  width: 30%;
+  color: white;
+  height: 450px;
+  margin: 40px;
+  padding: 20px;
+  position: absolute;
+  left: 140px;
+  top: 120px;
+  border-radius: 20px;
+
+}
+.first-image{
+  position: absolute;
+  right: 140px;
+  height: 800px;
+  top: 0;
+}
+
+
+
+
+
+
+.second-container{
+
+  display: flex;
+  position: absolute;
+  top: 900px;
+  height: 800px;
+  width: 100%;
+}
+.second-written{
+  background-color: black;
+  width: 30%;
+  color: white;
+  height: 450px;
+  margin: 40px;
+  padding: 20px;
+  position: absolute;
+  right: 140px;
+  top: 160px;
+  border-radius: 20px;
+
+}
+.second-image{
+  position: absolute;
+  left: 100px;
+  height: 1000px;
+  top: 0;
+}
+
+
+
+.third-container{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 1800px;
+  height: 800px;
+  width: 100%;
+}
+.third-written{
+  background-color: black;
+  width: 30%;
+  color: white;
+  height: 450px;
+  margin: 40px;
+  padding: 20px;
+  position: absolute;
+  left: 140px;
+  top: 120px;
+  border-radius: 20px;
+
+}
+.third-image{
+  position: absolute;
+  right: 140px;
+  height: 700px;
+  top: 0;
+}
+.third-image{
+  flex: 1 1 0%;
+}
+.third-image{
+  flex: 2 1 0%;
+}
+
+
+
+.footer-item{
+  background-color: #3C4048;
+  position: absolute;
+  top: 2650px;
+  right: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+
+}
+.foot-p{
+  color: white;
+  margin: 20px auto;
+}
